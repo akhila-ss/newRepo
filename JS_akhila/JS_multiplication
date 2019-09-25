@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+</head>
+<title>
+</title>
+<body bgcolor="#4a82e5" text="white">
+<h1><center>Multiplication</center></h1>
+<p>Enter the first number: <input  type="text" id="num1"></p>
+<p>Enter the second number: <input  type="text" id="num2"></p>
+<button  onclick="addition()">Multiply</button>
+<input type="text" id="display">
+<script>
+function addition() {
+var a=document.getElementById("num1").value;
+var b=document.getElementById("num2").value;
+var num1=parseInt(a);
+var num2=parseInt(b);
+var mul=num1*num2;
+document.getElementById("display").value = mul; 
+}
+</script>
+</body>
+</html>
+
